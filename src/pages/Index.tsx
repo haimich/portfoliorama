@@ -2,7 +2,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { TalkCard } from "@/components/TalkCard";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
-import logo from "@/assets/logo_banana.png";
+import logo from "@/assets/mrbanana.png";
 
 const projects = [
   {
@@ -33,7 +33,7 @@ const projects = [
     description: "A platform to manage events and conferences built on NodeJS",
     technologies: ["Node.js", "JavaScript"],
     githubUrl: "https://github.com/haimich/event",
-    imageUrl: "https://raw.githubusercontent.com/haimich/event/master/documentation/event_small.png"
+    imageUrl: "https://raw.githubusercontent.com/haimich/event/master/documentation/screenshot_1.png"
   },
   {
     name: "Flatfinder",
@@ -97,9 +97,9 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container mx-auto flex h-16 items-center justify-between px-4">
-          <a href="#home" className="flex items-center">
-            <img src={logo} alt="Michael Müller Logo" className="h-10 w-10" />
+        <div className="container mx-auto flex h-24 items-center justify-between px-4">
+          <a href="" className="flex items-center">
+            <img src={logo} alt="Michael Müller Logo" className="h-24 w-24" />
           </a>
           <div className="flex gap-6">
             <a href="#about" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
@@ -123,7 +123,7 @@ const Index = () => {
               Michael Müller
             </h1>
             <p className="mb-8 text-xl md:text-2xl text-white/90">
-              Full-Stack Developer & Open Source Enthusiast
+              Full-Stack Developer & AI Enthusiast
             </p>
             <p className="mb-10 text-lg text-white/80">
               Building beautiful web applications with modern technologies like React, Vue, Node.js, and TypeScript. 
@@ -144,7 +144,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjA1IiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-30" />
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjA1IiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-30 pointer-events-none" />
       </section>
 
       {/* About Section */}
@@ -165,12 +165,6 @@ const Index = () => {
                 <a href="https://www.linkedin.com/in/michael-m%C3%BCller-9a90a6284/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-5 w-5" />
                   LinkedIn
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" asChild>
-                <a href="https://github.com/haimich" target="_blank" rel="noopener noreferrer">
-                  <Github className="mr-2 h-5 w-5" />
-                  GitHub
                 </a>
               </Button>
             </div>
