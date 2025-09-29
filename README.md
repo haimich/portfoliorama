@@ -1,5 +1,5 @@
 # Portfoliorama
-This project was vibe coded with Lovable as a resume website for myself.
+This project was vibe coded with Lovable as a resumé website for myself.
 
 ## Getting started
 The only requirement is having Node.js & pnpm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating) and [install pnpm](https://pnpm.io/installation)
