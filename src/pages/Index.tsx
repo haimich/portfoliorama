@@ -2,6 +2,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { TalkCard } from "@/components/TalkCard";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
+import logo from "@/assets/logo_banana.png";
 
 const projects = [
   {
@@ -97,8 +98,8 @@ const Index = () => {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
-          <a href="#home" className="font-display text-2xl font-bold text-primary">
-            MM
+          <a href="#home" className="flex items-center">
+            <img src={logo} alt="Michael Müller Logo" className="h-10 w-10" />
           </a>
           <div className="flex gap-6">
             <a href="#about" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
